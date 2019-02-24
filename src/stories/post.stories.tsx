@@ -1,7 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Post, { Props } from '../components/Post';
+import Post, { Props } from '../components/Homepage/Post';
+
+const Box = ({ children }: { children: React.ReactNode; }) => (
+  <div style={{ width: 600 }}>{ children }</div>
+);
+
 
 const defaultProps: Props = {
   user: {
@@ -17,9 +22,7 @@ const defaultProps: Props = {
 };
 
 storiesOf('Post', module)
-  .addDecorator(storyFn => (
-    <div style={{ width: 600 }}>{ storyFn() }</div>
-  ))
+  .addDecorator(storyFn => <Box>{ storyFn() }</Box>)
   .add('default', () => (
     <Post {...defaultProps} />
   ))
@@ -28,4 +31,4 @@ storiesOf('Post', module)
   ))
   .add('created by me', () => (
     <Post {...defaultProps} isMine />
-  ))
+  ));
