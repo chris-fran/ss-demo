@@ -1,0 +1,1066 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Feed with a list of posts 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Feed
+    onNewPostClicked={[Function]}
+    posts={
+      Array [
+        Object {
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+          "createdAt": 2019-02-24T00:21:15.925Z,
+          "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+          "imageUrl": undefined,
+          "isMine": false,
+          "user": Object {
+            "avatarUrl": "https://via.placeholder.com/96x96",
+            "name": "John Doe",
+            "username": "johndoe",
+          },
+        },
+        Object {
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+          "createdAt": 2019-02-24T00:21:15.925Z,
+          "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+          "imageUrl": undefined,
+          "isMine": true,
+          "user": Object {
+            "avatarUrl": "https://via.placeholder.com/96x96",
+            "name": "Christopher Francisco",
+            "username": "ReijiS2",
+          },
+        },
+        Object {
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+          "createdAt": 2019-02-24T00:21:15.925Z,
+          "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+          "imageUrl": "https://via.placeholder.com/600x450",
+          "isMine": false,
+          "user": Object {
+            "avatarUrl": "https://via.placeholder.com/96x96",
+            "name": "John Doe",
+            "username": "johndoe",
+          },
+        },
+        Object {
+          "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+          "createdAt": 2019-02-24T00:21:15.925Z,
+          "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+          "imageUrl": undefined,
+          "isMine": false,
+          "user": Object {
+            "avatarUrl": "https://via.placeholder.com/96x96",
+            "name": "John Doe",
+            "username": "johndoe",
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <withHelpersModifiers(Container)>
+        <withHelpersModifiers(Title)>
+          News Feed
+          <withHelpersModifiers(Button)
+            isColor="primary"
+            isPulled="right"
+            isSize="small"
+            onClick={[Function]}
+          >
+            New Post
+          </withHelpersModifiers(Button)>
+        </withHelpersModifiers(Title)>
+        <withHelpersModifiers(Columns)
+          isMultiline={true}
+        >
+          <withHelpersModifiers(Column)
+            isSize="1/2"
+          >
+            <Post
+              body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+              createdAt={2019-02-24T00:21:15.925Z}
+              guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+              isMine={false}
+              user={
+                Object {
+                  "avatarUrl": "https://via.placeholder.com/96x96",
+                  "name": "John Doe",
+                  "username": "johndoe",
+                }
+              }
+            />
+          </withHelpersModifiers(Column)>
+          <withHelpersModifiers(Column)
+            isSize="1/2"
+          >
+            <Post
+              body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+              createdAt={2019-02-24T00:21:15.925Z}
+              guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+              isMine={true}
+              user={
+                Object {
+                  "avatarUrl": "https://via.placeholder.com/96x96",
+                  "name": "Christopher Francisco",
+                  "username": "ReijiS2",
+                }
+              }
+            />
+          </withHelpersModifiers(Column)>
+          <withHelpersModifiers(Column)
+            isSize="1/2"
+          >
+            <Post
+              body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+              createdAt={2019-02-24T00:21:15.925Z}
+              guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+              imageUrl="https://via.placeholder.com/600x450"
+              isMine={false}
+              user={
+                Object {
+                  "avatarUrl": "https://via.placeholder.com/96x96",
+                  "name": "John Doe",
+                  "username": "johndoe",
+                }
+              }
+            />
+          </withHelpersModifiers(Column)>
+          <withHelpersModifiers(Column)
+            isSize="1/2"
+          >
+            <Post
+              body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+              createdAt={2019-02-24T00:21:15.925Z}
+              guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+              isMine={false}
+              user={
+                Object {
+                  "avatarUrl": "https://via.placeholder.com/96x96",
+                  "name": "John Doe",
+                  "username": "johndoe",
+                }
+              }
+            />
+          </withHelpersModifiers(Column)>
+        </withHelpersModifiers(Columns)>
+      </withHelpersModifiers(Container)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <withHelpersModifiers(Title)>
+            News Feed
+            <withHelpersModifiers(Button)
+              isColor="primary"
+              isPulled="right"
+              isSize="small"
+              onClick={[Function]}
+            >
+              New Post
+            </withHelpersModifiers(Button)>
+          </withHelpersModifiers(Title)>,
+          <withHelpersModifiers(Columns)
+            isMultiline={true}
+          >
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={true}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "Christopher Francisco",
+                    "username": "ReijiS2",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                imageUrl="https://via.placeholder.com/600x450"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+          </withHelpersModifiers(Columns)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "News Feed",
+              <withHelpersModifiers(Button)
+                isColor="primary"
+                isPulled="right"
+                isSize="small"
+                onClick={[Function]}
+              >
+                New Post
+              </withHelpersModifiers(Button)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "News Feed",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "New Post",
+                "isColor": "primary",
+                "isPulled": "right",
+                "isSize": "small",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "New Post",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>,
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={true}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "Christopher Francisco",
+                      "username": "ReijiS2",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>,
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  imageUrl="https://via.placeholder.com/600x450"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>,
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>,
+            ],
+            "isMultiline": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+              "nodeType": "function",
+              "props": Object {
+                "children": <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />,
+                "isSize": "1/2",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                  "createdAt": 2019-02-24T00:21:15.925Z,
+                  "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                  "imageUrl": undefined,
+                  "isMine": false,
+                  "user": Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+              "nodeType": "function",
+              "props": Object {
+                "children": <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={true}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "Christopher Francisco",
+                      "username": "ReijiS2",
+                    }
+                  }
+                />,
+                "isSize": "1/2",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                  "createdAt": 2019-02-24T00:21:15.925Z,
+                  "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                  "imageUrl": undefined,
+                  "isMine": true,
+                  "user": Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "Christopher Francisco",
+                    "username": "ReijiS2",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+              "nodeType": "function",
+              "props": Object {
+                "children": <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  imageUrl="https://via.placeholder.com/600x450"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />,
+                "isSize": "1/2",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                  "createdAt": 2019-02-24T00:21:15.925Z,
+                  "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                  "imageUrl": "https://via.placeholder.com/600x450",
+                  "isMine": false,
+                  "user": Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+              "nodeType": "function",
+              "props": Object {
+                "children": <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />,
+                "isSize": "1/2",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                  "createdAt": 2019-02-24T00:21:15.925Z,
+                  "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                  "imageUrl": undefined,
+                  "isMine": false,
+                  "user": Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <withHelpersModifiers(Container)>
+          <withHelpersModifiers(Title)>
+            News Feed
+            <withHelpersModifiers(Button)
+              isColor="primary"
+              isPulled="right"
+              isSize="small"
+              onClick={[Function]}
+            >
+              New Post
+            </withHelpersModifiers(Button)>
+          </withHelpersModifiers(Title)>
+          <withHelpersModifiers(Columns)
+            isMultiline={true}
+          >
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={true}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "Christopher Francisco",
+                    "username": "ReijiS2",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                imageUrl="https://via.placeholder.com/600x450"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+            <withHelpersModifiers(Column)
+              isSize="1/2"
+            >
+              <Post
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                createdAt={2019-02-24T00:21:15.925Z}
+                guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                isMine={false}
+                user={
+                  Object {
+                    "avatarUrl": "https://via.placeholder.com/96x96",
+                    "name": "John Doe",
+                    "username": "johndoe",
+                  }
+                }
+              />
+            </withHelpersModifiers(Column)>
+          </withHelpersModifiers(Columns)>
+        </withHelpersModifiers(Container)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <withHelpersModifiers(Title)>
+              News Feed
+              <withHelpersModifiers(Button)
+                isColor="primary"
+                isPulled="right"
+                isSize="small"
+                onClick={[Function]}
+              >
+                New Post
+              </withHelpersModifiers(Button)>
+            </withHelpersModifiers(Title)>,
+            <withHelpersModifiers(Columns)
+              isMultiline={true}
+            >
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={true}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "Christopher Francisco",
+                      "username": "ReijiS2",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  imageUrl="https://via.placeholder.com/600x450"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>
+              <withHelpersModifiers(Column)
+                isSize="1/2"
+              >
+                <Post
+                  body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                  createdAt={2019-02-24T00:21:15.925Z}
+                  guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                  isMine={false}
+                  user={
+                    Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    }
+                  }
+                />
+              </withHelpersModifiers(Column)>
+            </withHelpersModifiers(Columns)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                "News Feed",
+                <withHelpersModifiers(Button)
+                  isColor="primary"
+                  isPulled="right"
+                  isSize="small"
+                  onClick={[Function]}
+                >
+                  New Post
+                </withHelpersModifiers(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "News Feed",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "New Post",
+                  "isColor": "primary",
+                  "isPulled": "right",
+                  "isSize": "small",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "New Post",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <withHelpersModifiers(Column)
+                  isSize="1/2"
+                >
+                  <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />
+                </withHelpersModifiers(Column)>,
+                <withHelpersModifiers(Column)
+                  isSize="1/2"
+                >
+                  <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={true}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "Christopher Francisco",
+                        "username": "ReijiS2",
+                      }
+                    }
+                  />
+                </withHelpersModifiers(Column)>,
+                <withHelpersModifiers(Column)
+                  isSize="1/2"
+                >
+                  <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    imageUrl="https://via.placeholder.com/600x450"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />
+                </withHelpersModifiers(Column)>,
+                <withHelpersModifiers(Column)
+                  isSize="1/2"
+                >
+                  <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />
+                </withHelpersModifiers(Column)>,
+              ],
+              "isMultiline": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />,
+                  "isSize": "1/2",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                    "createdAt": 2019-02-24T00:21:15.925Z,
+                    "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                    "imageUrl": undefined,
+                    "isMine": false,
+                    "user": Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={true}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "Christopher Francisco",
+                        "username": "ReijiS2",
+                      }
+                    }
+                  />,
+                  "isSize": "1/2",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                    "createdAt": 2019-02-24T00:21:15.925Z,
+                    "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                    "imageUrl": undefined,
+                    "isMine": true,
+                    "user": Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "Christopher Francisco",
+                      "username": "ReijiS2",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    imageUrl="https://via.placeholder.com/600x450"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />,
+                  "isSize": "1/2",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                    "createdAt": 2019-02-24T00:21:15.925Z,
+                    "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                    "imageUrl": "https://via.placeholder.com/600x450",
+                    "isMine": false,
+                    "user": Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Post
+                    body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor."
+                    createdAt={2019-02-24T00:21:15.925Z}
+                    guid="ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba"
+                    isMine={false}
+                    user={
+                      Object {
+                        "avatarUrl": "https://via.placeholder.com/96x96",
+                        "name": "John Doe",
+                        "username": "johndoe",
+                      }
+                    }
+                  />,
+                  "isSize": "1/2",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.",
+                    "createdAt": 2019-02-24T00:21:15.925Z,
+                    "guid": "ce4d5cba-33ef-4e10-8fdf-bbd6737b32ba",
+                    "imageUrl": undefined,
+                    "isMine": false,
+                    "user": Object {
+                      "avatarUrl": "https://via.placeholder.com/96x96",
+                      "name": "John Doe",
+                      "username": "johndoe",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

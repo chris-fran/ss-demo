@@ -24,7 +24,7 @@ const Feed = ({ onNewPostClicked, posts }: Props) => (
       </Title>
       <Columns isMultiline>
         { posts.map(post => (
-          <Column isSize="1/2">
+          <Column key={post.guid} isSize="1/2">
             <Post {...post} />
           </Column>
         ))}
