@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Post, { Props as PostProps } from './Post';
-import { Section, Container, Title, Subtitle, Columns, Column } from 'bloomer';
+import { Section, Container, Title, Subtitle, Columns, Column, Button } from 'bloomer';
 
 export interface Props {
   onNewPostClicked: () => void,
@@ -11,10 +11,17 @@ export interface Props {
 const Feed = ({ onNewPostClicked, posts }: Props) => (
   <Section>
     <Container>
-      <Title>News Feed</Title>
-      <Subtitle>
-        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-      </Subtitle>
+      <Title>
+        News Feed
+        <Button
+          isColor="primary"
+          isSize="small"
+          onClick={onNewPostClicked}
+          isPulled="right"
+        >
+          New Post
+        </Button>
+      </Title>
       <Columns isMultiline>
         { posts.map(post => (
           <Column isSize="1/2">

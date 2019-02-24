@@ -32,13 +32,14 @@ const Post = (props: Props) => (
         </MediaLeft>
         <MediaContent>
           <Title isSize={4}>{ props.user.name }</Title>
-          <Subtitle isSize={6}>{ props.user.username }</Subtitle>
+          <Subtitle isSize={6}>@{ props.user.username }</Subtitle>
         </MediaContent>
       </Media>
       <Content>
-        People Keep Asking If I’m Back, And I Haven’t Really Had An Answer, But Now, Yeah, I’m Thinking I’m Back.
+        { props.body }
         <br/>
-        <small>11:09 PM - 30 October 2014</small>
+        <br/>
+        <small>{ props.createdAt.toLocaleDateString() }</small>
       </Content>
     </CardContent>
     { props.isMine && (
