@@ -5,6 +5,7 @@ import { action } from '@storybook/addon-actions';
 import { Feed, Props } from '../components/Homepage/Feed';
 
 const defaultProps: Props = {
+  type: 'POSTS_TYPE',
   onNewPostClicked: action('button clicked'),
   posts: [{
     user: {
@@ -56,4 +57,11 @@ const defaultProps: Props = {
 storiesOf('Feed', module)
   .add('with a list of posts', () => (
     <Feed {...defaultProps} />
+    ))
+  .add('with an error', () => (
+    <Feed
+      {...defaultProps}
+      type='ERROR_TYPE'
+      error={new Error('500 - Internal Server Error')}
+    />
   ));
