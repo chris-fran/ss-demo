@@ -3,10 +3,12 @@ import { storiesOf } from '@storybook/react';
 
 import Post, { Props } from '../components/Homepage/Post';
 
-const Box = ({ children }: { children: React.ReactNode; }) => (
-  <div style={{ width: 600 }}>{ children }</div>
-);
-
+const withBox = (storyFn: any) =>
+  process.env.NODE_ENV === 'test' && (
+    storyFn()
+  ) || (
+    <div style={{ width: 600 }}>{ storyFn() }</div>
+  );
 
 const defaultProps: Props = {
   user: {
@@ -22,7 +24,7 @@ const defaultProps: Props = {
 };
 
 storiesOf('Post', module)
-  .addDecorator(storyFn => <Box>{ storyFn() }</Box>)
+  .addDecorator(withBox)
   .add('default', () => (
     <Post {...defaultProps} />
   ))
