@@ -14,6 +14,7 @@ const Feed = ({ onNewPostClicked, posts }: Props) => (
       <Title>
         News Feed
         <Button
+          data-test-id="new-post"
           isColor="primary"
           isSize="small"
           onClick={onNewPostClicked}

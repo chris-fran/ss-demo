@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Feed with a list of posts 1`] = `
+exports[`Feed Storyshots Feed with a list of posts 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Feed
@@ -76,6 +76,7 @@ ShallowWrapper {
         <withHelpersModifiers(Title)>
           News Feed
           <withHelpersModifiers(Button)
+            data-test-id="new-post"
             isColor="primary"
             isPulled="right"
             isSize="small"
@@ -169,6 +170,7 @@ ShallowWrapper {
           <withHelpersModifiers(Title)>
             News Feed
             <withHelpersModifiers(Button)
+              data-test-id="new-post"
               isColor="primary"
               isPulled="right"
               isSize="small"
@@ -262,6 +264,7 @@ ShallowWrapper {
             "children": Array [
               "News Feed",
               <withHelpersModifiers(Button)
+                data-test-id="new-post"
                 isColor="primary"
                 isPulled="right"
                 isSize="small"
@@ -280,6 +283,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "New Post",
+                "data-test-id": "new-post",
                 "isColor": "primary",
                 "isPulled": "right",
                 "isSize": "small",
@@ -563,6 +567,7 @@ ShallowWrapper {
           <withHelpersModifiers(Title)>
             News Feed
             <withHelpersModifiers(Button)
+              data-test-id="new-post"
               isColor="primary"
               isPulled="right"
               isSize="small"
@@ -656,6 +661,7 @@ ShallowWrapper {
             <withHelpersModifiers(Title)>
               News Feed
               <withHelpersModifiers(Button)
+                data-test-id="new-post"
                 isColor="primary"
                 isPulled="right"
                 isSize="small"
@@ -749,6 +755,7 @@ ShallowWrapper {
               "children": Array [
                 "News Feed",
                 <withHelpersModifiers(Button)
+                  data-test-id="new-post"
                   isColor="primary"
                   isPulled="right"
                   isSize="small"
@@ -767,6 +774,7 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": "New Post",
+                  "data-test-id": "new-post",
                   "isColor": "primary",
                   "isPulled": "right",
                   "isSize": "small",
