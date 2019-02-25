@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Feed Storyshots Feed with a list of posts 1`] = `
+exports[`Feed Serialized snapshots Feed with a list of posts 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Feed
@@ -1074,7 +1074,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`Feed Storyshots Feed with an error 1`] = `
+exports[`Feed Serialized snapshots Feed with an error 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Feed
