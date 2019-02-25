@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import Post, { Props as PostProps } from './Post';
 import { Section, Container, Title, Subtitle, Columns, Column, Button } from 'bloomer';
 
@@ -46,7 +47,7 @@ export interface State {
   posts: PostProps[],
 };
 
-class FeedContainer extends React.Component<undefined, State> {
+class FeedContainer extends React.Component<{}, State> {
   state: State = {
     posts: [],
   };

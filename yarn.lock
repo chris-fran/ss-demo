@@ -1580,6 +1580,11 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/storybook__addon-actions@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-actions/-/storybook__addon-actions-3.4.2.tgz#1d08689cc3259269ddb3479a2307c9d16944309e"
+  integrity sha512-CWxGz2pXav9PHcwrtXmkuH+xJL7sAu2AmIGEbkdT3Xs5jzBPZUEDEN//ZF7o6IOPP/tdXU37K1hrVMt9TDO0Bw==
+
 "@types/storybook__addon-storyshots@^3.4.7":
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/@types/storybook__addon-storyshots/-/storybook__addon-storyshots-3.4.7.tgz#0a00efd7fc5b121d9d1e5c9cd6fb197cff45c844"
