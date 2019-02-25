@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import FeedContainer from './components/Homepage/Feed';
+import FeedContainer from './components/Homepage/FeedContainer';
 
 const App = () => (
   <div>

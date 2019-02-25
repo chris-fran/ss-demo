@@ -2,7 +2,6 @@ import React from 'react';
 import { Section, Container, Title, Subtitle, Columns, Column, Button, Notification } from 'bloomer';
 
 import Post, { Props as PostProps } from './Post';
-import { loadPosts } from '../../api/api';
 
 interface BaseTypeProps {
   onNewPostClicked: () => void;
@@ -65,49 +64,4 @@ export const Feed = (props: Props) => (
   </Section>
 );
 
-/**
- * If using redux, the container below is just a HoC
- *
- *   export default connect(mSTP, mDTP)(Feed);
- *
- * However we'll use a regular container component for the example
- */
-
-interface PostTypeState {
-  type: 'POSTS_TYPE';
-  posts: PostProps[];
-};
-interface ErrorTypeState {
-  type: 'ERROR_TYPE';
-  error: Error,
-};
-
-type State = PostTypeState | ErrorTypeState;
-
-class FeedContainer extends React.Component<{}, State> {
-  state: State = {
-    type: 'POSTS_TYPE',
-    posts: [],
-  };
-
-  componentDidMount() {
-    return loadPosts()
-      .then(posts => this.setState({ type: 'POSTS_TYPE', posts }))
-      .catch(error => this.setState({ type: 'ERROR_TYPE', error }));
-  }
-
-  handleNewPost() {
-    console.log('Not implemented yet');
-  }
-
-  render() {
-    return (
-      <Feed
-        onNewPostClicked={this.handleNewPost}
-        {...this.state}
-      />
-    );
-  }
-}
-
-export default FeedContainer;
+export default Feed;
