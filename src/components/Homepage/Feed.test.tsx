@@ -3,6 +3,9 @@ import initStoryshots from '@storybook/addon-storyshots';
 import { shallow } from 'enzyme';
 
 import FeedContainer, { Feed } from './Feed';
+import { loadPosts } from '../../api/api';
+
+jest.mock('../../api/api');
 
 describe('Feed', () => {
   describe('presentational component', () => {
@@ -38,6 +41,7 @@ describe('Feed', () => {
 
   describe('container component', () => {
     it('renders the presentational component', () => {
+      loadPosts.mockResolvedValue([]);
       const wrapper = shallow(<FeedContainer />);
       expect(wrapper).toMatchSnapshot();
     });
