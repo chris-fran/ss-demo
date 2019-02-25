@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import Feed, { Props } from '../components/Homepage/Feed';
+import { Feed, Props } from '../components/Homepage/Feed';
 
 const defaultProps: Props = {
   onNewPostClicked: action('button clicked'),
