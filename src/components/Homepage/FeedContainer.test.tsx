@@ -12,10 +12,4 @@ describe('FeedContainer', () => {
     const wrapper = shallow(<FeedContainer />);
     expect(wrapper).toMatchSnapshot();
   });
-
-  it('renders the presentational component with error', () => {
-    loadPosts.mockRejectedValue(new Error('failure'));
-    const wrapper = shallow(<FeedContainer />);
-    expect(wrapper).toMatchSnapshot();
-  });
 });
