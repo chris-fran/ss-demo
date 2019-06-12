@@ -7,7 +7,7 @@ export const loadPosts = (): Promise<PostProps[]> => {
     if (emulateError) {
       reject('500 - Internal Server Error');
     } else {
-      resolve([{
+      resolve(Array(6).fill(0).map(_ => ({
         user: {
           name: 'John Doe',
           username: 'johndoe',
@@ -18,7 +18,7 @@ export const loadPosts = (): Promise<PostProps[]> => {
         body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc non metus eleifend, id ornare nulla sollicitudin. Phasellus blandit lacus vitae ullamcorper lobortis. Vivamus in neque tortor.',
         createdAt: new Date('2019-02-24T00:21:15.925Z'),
         isMine: false,
-      }])
+      })))
     }
   });
 };
