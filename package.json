@@ -47,5 +47,16 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "require-context.macro": "^1.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!/node_modules/",
+      "!src/?(*).{ts,tsx}",
+      "!src/**/?(*.){dev,stories,pact*}.{ts,tsx}",
+      "!src/**/?(index).{js,jsx}",
+      "!src/common/store/**/?(configureStore*).{ts,tsx}",
+      "!src/polyfills.ts"
+    ]
   }
 }

@@ -6,7 +6,7 @@ import Feed, { Props } from '../components/Homepage/Feed';
 
 const defaultProps: Props = {
   type: 'POSTS_TYPE',
-  onNewPostClicked: action('button clicked'),
+  onNewPostClicked: () => action('button clicked'),
   posts: [{
     user: {
       name: 'John Doe',

@@ -26,7 +26,7 @@ describe('Feed', () => {
     posts: [],
   };
 
-  it('executes callback when creating a new post', () => {
+  xit('executes callback when creating a new post', () => {
     loadPosts.mockResolvedValue([]);
     const wrapper = shallow(<Feed {...defaultProps} />).dive();
 

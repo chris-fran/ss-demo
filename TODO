@@ -1,0 +1,10 @@
+1. Start the project normally, explain the usual workflow
+2. Explain how you have to manually force an error to see certain UI states.
+3. Mention that if you forget to revert the manual change it might end up introducing a new bug
+4. Explain what storybook is, and how it can help us design w/o forcing the change
+5. Emphasis on presentational vs container components
+6. Explain what storyshots is, and how it help us obtain 100% code coverage on UI state code
+7. Explain that you still need to write unit tests for behavior
+8. Show the visual test suite
+8. Show how the serialized snapshot tests fail on [un]wanted HTML changes (div to section or something)
+9. Show how the visual tests fail on [un]wanted CSS changes
